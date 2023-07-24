@@ -1,10 +1,10 @@
 pipeline {
     agent any
     stages {
-         stage('Hello') {
+         stage('Clone_Katalon') {
             steps {
-                echo 'Hello'
-//                 git branch: 'master', url: 'https://github.com/Raghav-Pal/KatalonDemoProjectOne'
+                echo 'Clone'
+//                 git branch: 'main', url: 'https://github.com/Selahattinasn/katalon_demo.git'
             }
         }
 
